@@ -51,11 +51,22 @@ footer {
     float: right;
 }
 
-.contentContainer {
+.aboutContainer {
     display: block;
     overflow: hidden;
     background-color: #ffffff;
-    height: 450px;
+    height: 475px;
+    position: relative;
+    top: 40px;
+    border: 1px solid #dddddd;
+}
+
+.contactContainer {
+    display: block;
+    overflow: hidden;
+    color: #777777;
+    background-color: #ffffff;
+    height: 475px;
     position: relative;
     top: 40px;
     border: 1px solid #dddddd;
@@ -108,7 +119,7 @@ h2 {
     font-weight: bold;
     color: #4aaaad;
     font-size: 20pt;
-    padding: 25px 0px 0px 25px;
+    padding: 20px 0px 0px 25px;
 }
 
 .break {
@@ -118,7 +129,7 @@ h2 {
     background-color: #cccccc;
 }
 
-#profile {
+#profilePic {
     height: 200px;
     width: 200px;
     padding: 20px;
@@ -128,6 +139,7 @@ h2 {
 p#bio {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    font-size: 12pt;
     line-height: 200%;
     padding-right: 20px;
 }
@@ -139,4 +151,44 @@ p#bio {
 .clear {
         clear: both;
         overflow: hidden;
+}
+
+    /* How do I get rid of the bright blue highlighted border when boxes are clicked in Chrome? */
+form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12pt;
+    position: relative;
+    padding: 20px;
+    top: 10px;
+}
+
+input {
+    width: 100%
+}
+
+#name {
+    margin-top: 5px;
+}
+
+#email {
+    margin-top: 5px;
+}
+
+#messagebox {
+    margin-top: 5px;
+    border-color: #cccccc;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#submit {
+    font-size: 9pt;
+    color: #ffffff;
+    background-color: #4aaaad;
+    width: 80px;
+    height: 30px;
+}
+
+::placeholder {
+    color: #cccccc;
 }
