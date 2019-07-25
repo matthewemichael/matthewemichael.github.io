@@ -72,6 +72,17 @@ footer {
     border: 1px solid #dddddd;
 }
 
+.portfolioContainer {
+    display: block;
+    overflow: hidden;
+    color: #777777;
+    background-color: #ffffff;
+    height: 840px;
+    position: relative;
+    top: 40px;
+    border: 1px solid #dddddd;
+}
+
 .footerContainer {
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
     font-size: 8pt;
@@ -191,4 +202,64 @@ input {
 
 ::placeholder {
     color: #cccccc;
+}
+
+.sampleName {
+    background-color: #4aaaad;
+    color: #ffffff;
+    font-size: 15pt;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    top: 140px;
+}
+
+#sample1 {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    background-image: url(../images/pph-1.jpg);
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
+#sample2 {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    background-image: url(../images/pph-2.jpg);
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
+#sample3 {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    background-image: url(../images/pph-3.jpg);
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
+#sample4 {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    background-image: url(../images/pph-4.jpg);
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
+#sample5 {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    background-image: url(../images/pph-5.jpg);
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
 }
