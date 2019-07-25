@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/cork-wallet.png);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    height: 75px;
+    width: 100%;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+}
+
+footer {
+    background-color: #666666;
+    position: absolute;
+    bottom: 0;
+    border-top: 5px solid #4aaaad;
+    width: 100%;
+    height: 50px;
+    
+}
+.wrapper {
+    margin: auto;
+    width: 960px;
+}
+
+.nameContainer {
+    background-color: #4aaaad;
+    color: #ffffff;
+    text-align: center;
+    width: 275px;
+    height: 73px;
+    padding: 0;
+    margin-top: -75px;
+    float: left;
+}
+
+.navContainer {
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-size: 12pt;
+    margin-top: -75px;
+    padding: 27px 0px 27px 27px;
+    float: right;
+}
+
+.contentContainer {
+    display: block;
+    overflow: hidden;
+    background-color: #ffffff;
+    height: 450px;
+    position: relative;
+    top: 40px;
+    border: 1px solid #dddddd;
+}
+
+.footerContainer {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-size: 8pt;
+    text-align: center;
+    color: #cccccc;
+    position: absolute;
+    bottom: 2px;
+    width: 100%
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+
+/* To align Contact link with right side of container */ 
+li#right {                  
+    padding-right: 0px;         
+}
+
+a {
+    text-decoration: none;
+    color: #777777
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #4aaaad;
+    font-size: 20pt;
+    padding: 25px 0px 0px 25px;
+}
+
+.break {
+    margin: auto;
+    width: 96%;
+    height: 2px;
+    background-color: #cccccc;
+}
+
+#profile {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    float: left;
+}
+
+p#bio {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 200%;
+    padding-right: 20px;
+}
+
+
+
+    /* I still don't understand why I have to create a special div to clear floats.  Without this the
+    name and nav containers move out of place. */
+.clear {
+        clear: both;
+        overflow: hidden;
+}
