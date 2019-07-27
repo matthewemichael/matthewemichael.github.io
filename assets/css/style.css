@@ -2,10 +2,15 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     background-image: url(../images/cork-wallet.png);
     margin: 0;
     padding: 0;
+    min-height: 100%;
 }
 
 header {
@@ -17,18 +22,25 @@ header {
     border-color: #cccccc;
 }
 
+.wrapper {
+    margin: auto;
+    width: 960px;
+    position:relative; 
+    padding-bottom: 50px;
+}
+
+/* I can not figure out how to get the footer to remain at the bottom of the page
+when it is resized or during scrolling.  Have tried many different suggestions found online
+and I'm stumped 
+*/
 footer {
-    background-color: #666666;
     position: absolute;
-    bottom: 0;
+    background-color: #666666;
+    left: 0 ; right: 0 ; bottom: 0;
     border-top: 5px solid #4aaaad;
     width: 100%;
     height: 50px;
     
-}
-.wrapper {
-    margin: auto;
-    width: 960px;
 }
 
 .nameContainer {
