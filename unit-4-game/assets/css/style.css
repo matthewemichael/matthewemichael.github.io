@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url("../images/memphis-mini.png");
+    background-position: center 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    
+}
+
+
+#intro {
+    background: #e1e1e1 !important;
+    max-width: 992px !important; 
+    margin: 3rem auto 0 auto !important;
+    padding: 2rem;
+    border: 2px solid #f8f8f8;
+    border-radius: 5px;
+}
+
+hr {
+    background-color: #fff;
+    border: 0 none;
+    color: #fff;
+    height: 2px !important;
+    width: 96%;
+}
+
+h1 {
+    font-size: 34px !important;
+    letter-spacing: 0.5px;
+}
+
+h3 {
+    font-size: 22px !important;
+}
+
+h5 {
+    font-size: 16px !important;
+    font-weight: 200;
+    letter-spacing: 0.4px;
+    line-height: 120% !important;
+}
+
+.row#gameStats {
+    margin: 0 auto;
+    max-width: 992px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #e1e1e1;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border: 2px solid #f8f8f8;
+}
+
+.statText {
+    font-size: 30px;
+    color: purple;
+}
+
+.row#crystals {
+    margin: 0 auto;
+    max-width: 992px;
+    text-align: center;
+    display: inline-flexbox;
+
+   
+}
