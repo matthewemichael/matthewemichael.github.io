@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>GifTastic</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row" id="header">
+            <div class="col-sm-12 intro">
+                <p><h1>GifTastic!</h1></p>
+                <p><h5>Select a popular TV show button to display some gifs. You can also search Giphy to add your own! 
+                    <br>Click each gif to play and pause.
+                    </h5>
+                </p>
+            </div>
+            <hr>
+            <div class="col-sm-12 buttons" id="topics"></div>
+        </div>
+        <div class="row" id="input-content">
+            <div class="col-sm-4 col-md-6 col-lg-6" id="content-buttons">
+                <button class="btn btn-dark" id="remove-topic">Remove Topic</button>
+                <button class="btn btn-dark" id="reset-topic">Reset Topics</button>
+                <button class="btn btn-dark" id="clear-content">Clear Gifs</button>
+            </div>
+            <div class="col-sm-8 col-md-6 col-lg-6" id="input-box">
+                <form>
+                    <input type="text" id="topic-input" placeholder="Seach Giphy">
+                    <input type="submit" class="submit btn btn-success" value="Add New Topic">
+                </form>
+            </div>
+
+        </div>
+        <div class="row" id="gifs">
+            <div class="col-sm-12"></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>

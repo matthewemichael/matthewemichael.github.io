@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url("../images/wormz.png");
+}
+
+button.show {
+    margin: 5px;
+}
+
+#header {
+    background: #e2e2e2;
+    border-radius: 5px;
+    border: 1px solid #c6c6c6;
+    max-width: 1440px;
+    margin-top: 1vh;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: block;
+}
+
+.intro {
+    margin: 1vh;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+#topics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+
+#input-content {
+    background: #e2e2e2;
+    border-radius: 5px;
+    border: 1px solid #c6c6c6;
+    max-width: 1440px;
+    margin-top: 1vh;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+#gifs {
+    background: #e2e2e2;
+    border-radius: 5px;  
+    max-width: 1440px;
+    margin: 1vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+#input-box {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: right;
+}
+
+#topic-input {
+    text-transform: capitalize;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.submit {
+    margin-left: 5px;
+}
+
+
+p {
+    margin-bottom: 2vh;
+}
+
+img {
+    margin-top: 2vh;
+    margin-right: 1vw;
+    border-radius: 5px;
+    border: 2px solid #a6c3e4;
+}
+
+#content-buttons {
+    float: left;
+}
+
+@media only screen and (max-width: 991.9px) {
+    #topic-input,
+    .btn-dark {
+        margin-bottom: 5px;
+    }
+};
