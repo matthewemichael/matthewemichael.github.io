@@ -1,0 +1,83 @@
+body {
+    background: #292463;
+}
+
+#train-table th,
+td {
+    text-align: center;
+}
+
+th {
+    font-weight: 500;
+}
+
+.card {
+    border: 3px solid silver;
+}
+
+.card-header {
+    font-weight: bolder;
+}
+
+.jumbotron {  
+    background: url(../images/memberwhenbg.jpg);
+    background-size: cover; 
+    background-position: center;
+    min-height: 450px;
+    border: 3px solid silver;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+thead {
+    background: #f1f1f1;
+    /* align-content: center;
+    text-align: center; */
+}
+
+.error {
+    color: red;
+    margin-left: 3vw;
+}
+
+img:hover { 
+    border: 2px solid red; 
+    border-radius: 3px;
+}   
+
+img.removeButton {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+::placeholder {
+    font-weight: lighter;
+    color: #cacaca !important;
+}
+
+.modal-header,
+.modal-body
+{
+    margin: 0 auto;  
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus
+{
+    background: #f6db50 !important;
+    color: #666666;
+}
+
+.btn-primary:hover
+ {
+    background: #f5b21b !important;
+    color: white;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
