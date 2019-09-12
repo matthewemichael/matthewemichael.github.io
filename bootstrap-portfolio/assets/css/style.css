@@ -82,6 +82,11 @@ p.aboutMe {
     letter-spacing: 0.6px;
 }
 
+img#train {
+    max-width: 640px;
+    max-height: 410px;
+}
+
 @media screen and (max-width: 767.8px) {
     #mainContainer {
         text-align: justify;
