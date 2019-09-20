@@ -5,19 +5,17 @@ This is the first group project for Vanderbilt's Coding Bootcamp.
 https://matthewemichael.github.io/Project1/index.html
 
 ## Original Inspiration
-This site provides initial information for users who are planning to travel somewhere new. A to-do list is provided with local storage in order to store ideas and inspiration.
+This site provides initial information for users who are planning to travel somewhere new. A to-do list is provided with local storage in order to store ideas and inspiration derived from the travel related YouTube videos that are displayed with each search query.
 
 ## Technology Used
 - jQuery 
 - 3 APIs (Here, OpenWeather, YouTube)
 - animate.css library
 - Bootstrap
-- JSON requests
+- JSON
 
-## First Half of Screen
+## Screen Shot
 ![Screen Shot](assets/images/FirstHalfScreen.png)
-
-## Second Half of Screen When 
 ![Screen Shot](assets/images/SecondHalfScreen.png)
 
 ## Future Goals
