@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> 
+        <!-- Font Library -->
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
+        <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
+      <!-- Firebase References -->
+      <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-database.js"></script>
+      <title>travelHub</title>
+      <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    
+      <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+      <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+      <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+      <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+    <!-- <script type="text/javascript" src='../js-examples-rendering-helpers/iframe-height.js'></script></head> -->
+  
+      <!-- Moment.js Reference -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <title>Project 1</title>
+</head>
+
+    <body>
+
+    <div class = "container">  
+        <!-- Header -->
+        <div class="jumbotron">
+            <img src="assets/images/travelhublogo.png" class="animated zoomIn" id="brand-logo"><br>
+            <p class="lead">Make the best out of your next trip!</p>
+            <div class="city"></div>
+            
+        </div>  
+            
+        <!-- Input for travel location and submit button -->
+        <div class="row search-form">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="mr-3 font-weight-bold animated heartBeat">Enter Your Destination</h4>
+                   </div> 
+                   <div class="col-md-12">
+                        <form class="form-inline mb-2" id="search-term">
+                            <input type="text" id="query" placeholder="City, State, Country" class="mr-1" value="Nashville">
+                            <input type="submit" class="submit btn btn-primary" value="Search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row" id="weather">
+                    <div class="col-md-9">
+                        <div><h4>Weather Currently</h4></div>
+                        <div class="temp"></div>
+                        <div class="humidity"></div>
+                        <div class="wind"></div>  
+                    </div>
+                    <div class="col-md-3">     
+                        <div id="icon"><img id="wicon" src="" alt="Weather icon"></div>
+                    </div>
+                
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="row" id="map-todo">
+            <div class="col-lg-8" id="map">
+                 
+                        <!--<div id="markers-on-the-map">
+                                <div class="page-header"> -->
+                                    <!-- <p>Display a map at a specified location and zoom level</p> -->
+                          <!--      </div>
+                        </div> -->
+               <!-- <img src=""> -->
+            </div>
+            
+            <div class="col-lg-4" id="todo">
+                    <div class="row">
+                        <div class="col-md-12">
+                                To Do Item: 
+                            <form>
+                                <span id="list-item"><input id="list" type="text" >
+                                    <input id="add-list-item" value="Add Item" type="submit"></span>
+                            </form> 
+                        </div>
+                        <!-- Where input is displayed with check boxes -->
+                        <div class="col-md-12" id="to-dos-listed">
+                        </div>
+                    </div>
+            </div>
+        </div>
+ 
+        <!-- YouTube videos -->
+        <div class="row">
+            <div class ="col-md-12" id="player">
+                    
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="search-results">
+            </div>  
+            
+        </div>
+
+
+
+
+    </div>
+    
+
+    <script src="./assets/javascript/app.js"></script>
+</body>
+</html>
