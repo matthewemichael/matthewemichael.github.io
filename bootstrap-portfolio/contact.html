@@ -31,39 +31,58 @@
         </div>
     </nav>
     
-    <div id="mainContainer" class="container rounded mb-2">
+    <div class="container rounded mb-2">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-lg-8 col-md-7" id="mainContainer">
                 <div class="page-header">
-                    <h3>Contact</h3>
+                <h3>Contact</h3>
                 </div>
-                    <div class="row">
-                        <div class="col md-12">
-                            <form>
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                        <input type="text" class="form-control" id="name" placeholder="John Smith">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Email</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="textarea">Message</label>
-                                    <textarea id="textarea" class="form-control" rows="10"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-default btn-lg">Submit</button>
-                            </form>    
-                        </div>        
+                
+                    <div class="col lg-12">
+                        <form action="https://formspree.io/email@domain.tld" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="John Smith">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                    <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="textarea">Message</label>
+                                <textarea id="textarea" name="name" class="form-control" rows="10"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default btn-lg">Submit</button>
+                        </form>    
+                    </div>
+                    
+            </div>        
+            
+            <div class="col-lg-4 col-md-5">
+                <div class="card">
+                    <div class="card-header">
+                    <h3>Connect</h3>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.linkedin.com/in/matthewemichael/" target="_blank">
+                            <img src="assets/images/LI-In-Bug.png" id="linkedIn">
+                        </a>
+                        <a href="https://github.com/matthewemichael" target="_blank">
+                            <img src="assets/images/GitHub-Mark-64px.png">
+                        </a>
+                        <a href="./assets/images/mm-resume-092019.pdf" target="_blank">
+                            <img src="assets/images/resume.png" id="resume">
+                        </a>
                     </div>
                 </div>
-            </div>
-    
-        </div>
             
-    
-    
+                
+            </div>                
+        </div>
+                
     </div>
+    
+
     
     <footer class="footer mt-auto py-3 navbar-dark bg-dark text-center">
         <div class="container">
