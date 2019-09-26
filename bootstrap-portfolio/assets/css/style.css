@@ -40,6 +40,15 @@ h3 {
     justify-content: space-evenly;
 }
 
+.card-footer a {
+    color: #343a40;
+}
+
+.card-footer a:hover {
+    color: #118888;
+    text-decoration: none;
+}
+
 #profilePic {
     margin-bottom: 1%;
     margin-right: 2%;
@@ -83,9 +92,9 @@ p.aboutMe {
 .project-title {
     float: left;
     position: relative;
-    top: -80px;
+    top: -100px;
     width: 100%;
-    height: 35px;
+    height: 65px;
     padding-top: 5px;
     background-color: #343a40;
     border: 1px solid #8899aa;
@@ -94,12 +103,31 @@ p.aboutMe {
     letter-spacing: 0.6px;
 }
 
+.project-title a {
+    color: #118888
+}
+
+.project-title a:hover {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+hr {
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+    border: 0.5px solid #8899aa;
+    
+}
+
 #linkedIn,
 #resume
 {
     height: 64px;
-    
+}
 
+#phone {
+    font-size: smaller;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -122,6 +150,11 @@ p.aboutMe {
     .card {
         background: none !important;
         border: none !important;
+    }
+    .card-footer {
+        background: none !important;
+        border: none !important;
+        text-align: center;
     }
 }
 
