@@ -31,7 +31,7 @@ h3 {
 }
 
 .card-header {
-    padding-top: 1vh;
+    padding-top: .6vh;
     background: #f2f2f2;
 }
 
@@ -127,6 +127,6 @@ p.aboutMe {
 
 @media screen and (max-width: 991.98px) {
     .card-header {
-        padding-top: .8vh;
+        padding-top: .3vh;
     }
 }
